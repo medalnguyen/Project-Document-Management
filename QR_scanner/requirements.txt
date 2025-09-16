@@ -1,0 +1,9 @@
+Name: pdf2image
+Version: 1.17.0
+Description: A Python module that wraps pdftoppm and pdftocairo to convert PDF to a PIL Image object
+Name: opencv-python
+Version: 4.12.0.88
+Description: Open Source Computer Vision Library
+Name: pyzbar
+Version: 0.1.9
+Description: Python wrapper for the ZBar bar code reader
