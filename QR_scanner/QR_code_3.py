@@ -26,6 +26,6 @@ def extract_qr_from_pdf(pdf_paths):
             page_number += 1
 
 if __name__ == "__main__":
-    folder_path = r"D:\Promgramming\QR_path"  # Thay đổi đường dẫn tới thư mục chứa các file PDF
+    folder_path = r"D:\Promgramming\Project-Document-Management\QR_scanner\QR_path"  # Thay đổi đường dẫn tới thư mục chứa các file PDF
     pdf_paths = [os.path.join(folder_path, f) for f in os.listdir(folder_path) if f.lower().endswith('.pdf')]
     extract_qr_from_pdf(pdf_paths)
